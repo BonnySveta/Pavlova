@@ -44,3 +44,12 @@
         font-weight: normal;
 	}
 
+@font-face {
+    font-family: "BitterBold";
+    src: url("../fonts/BitterBold/BitterBold.eot");
+    src: url("../fonts/BitterBold/BitterBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/BitterBold/BitterBold.woff") format("woff"),
+    url("../fonts/BitterBold/BitterBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
