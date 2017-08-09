@@ -25,12 +25,19 @@ body{
 #main-header button{
   background:#3d50ee;
   color:#fff;
-  padding:10px 20px;
   border:0;
   box-shadow: 0 0 22px rgba(0,0,0,.2);
   border-radius: 50px;
-  font-family: 'ProximaNovaBold' ;
-  font-size:  14px;
+  font-size:  14px !important ;
+  letter-spacing: normal !important; 
+}
+
+.phone {
+  padding: 4px 4px 4px 23px;
+}
+
+.vk {
+  padding: 13px 15px 6px 15px;
 }
 
 #navbar li{
@@ -46,10 +53,34 @@ body{
   font-size: 14px;
 }
 
-/* #navbar li.current a, #navbar a:hover{
-  border-bottom: 2px solid white;
-  padding-bottom:3px;
-} */
+.circle {
+
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.blue {
+  background: #2f3bcd;
+  margin-left: 10px;
+  width: 30px;
+	height: 30px;
+}
+
+.orange {
+  width: 20px;
+	height: 20px;
+  background: #cc6666;
+  margin-left: 10px;
+}
+
+.yellow {
+  width: 20px;
+	height: 20px;
+  background: #ffc17e;
+  margin-left: 10px;
+}
+
 
 
 #showcase .row{
@@ -246,13 +277,22 @@ input.email {
 .btn-big {
   height: 50px;
   margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .btn-small {
   height: 40px;
+  display: table;
+}
+
+.btn-content {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .btn-dark {
+  display: inline-table;
   height: 30px;
   background-color: #272eba;
   border-radius: 50px;
@@ -260,16 +300,12 @@ input.email {
   border-radius: 50px;
   border:0;
   padding-left: 18px;
-  padding-bottom: 13px;
   margin-top: 34px;
 }
 
 
 
 .btn-light {
-    
-    padding-left: 50px;
-    padding-right: 50px;
     border:0;
     font-family: 'ProximaNovaBold';
     box-shadow: 0 0 7px rgba(0,0,0,.37);
@@ -315,16 +351,17 @@ input.email {
   letter-spacing: 0.02em;
 }
 
-.contact {
-  text-align: left;
+#contacts div {
+  padding: 0px;
 }
 
 .footer-list{
   margin-top: 25px;
+  list-style: none;
 }
 
-.footer-list li {
-  margin-bottom: 15px;
+.ref{
+  margin-bottom: 6px;
 }
 
 #contacts h1 {
@@ -336,6 +373,20 @@ input.email {
   letter-spacing: 0.02em;
 }
 
+#contacts p {
+    font-family: 'ProximaNovaLight';
+    color:#fff;
+    letter-spacing: 0.02em;
+    margin-bottom: 0px;
+}
+
+#contacts b {
+    font-family: 'ProximaNovaBold';
+    color:#fff;
+    letter-spacing: 0.02em;
+    margin-bottom: 0px;
+}
+
 #main-footer {
   background-color: #3649d6;
   height: 70px;
@@ -344,7 +395,7 @@ input.email {
 
 #main-footer  ul {
    font: 14px Verdana,sans-serif;
-   margin-top: 36px;
+   /* margin-top: 36px; */
    color: #7e8bee;
 }
 
@@ -354,4 +405,9 @@ input.email {
     /* эмуляция inline-block для IE6-7*/
     /* display : inline; */
     /* zoom : 1; */
+}
+
+.footer-list a {
+  text-decoration: none;
+  border-bottom:1px solid #969ee8;
 }
