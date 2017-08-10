@@ -156,16 +156,14 @@ p {
   margin-bottom: 30px;
 }
 
- span {
+span {
   font-family: 'ProximaNovaBold';
 }
 
+
 #problems {
   background-color: #e8f5fa;
-}
-
-.problems-nav {
-  margin-top:  -238px;
+  padding-top: 73px;
 }
 
 .problems-nav > li > button {
@@ -193,7 +191,6 @@ p {
 }
 
 #prob {
-  margin-top: 80px;
   margin-left: -20px;
   height: 685px;
 }
@@ -209,7 +206,7 @@ p {
 
 .right {
   border-right: 2px solid #589fff;
-  padding-right: 35px;
+  padding-right: 33px;
 }
 
 #exp img {
@@ -395,7 +392,7 @@ input.email {
 
 #main-footer  ul {
    font: 14px Verdana,sans-serif;
-   /* margin-top: 36px; */
+    margin-top: 26px; 
    color: #7e8bee;
 }
 
